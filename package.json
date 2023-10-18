@@ -1,0 +1,34 @@
+{
+  "name": "aboutme-derrick",
+  "version": "1.0.0",
+  "description": "A profile page about me for my portfolio.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc --project tsconfig.json",
+    "start": "node lib/Server.js",
+    "build": "npm run compile && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icstars/AboutMe-Derrick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icstars/AboutMe-Derrick/issues"
+  },
+  "homepage": "https://github.com/icstars/AboutMe-Derrick#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mssql": "^9.1.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^20.4.5"
+  }
+}

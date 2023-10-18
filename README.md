@@ -1,2 +1,2 @@
-# AboutMePage
- A page detailing who I am.
+# AboutMe-Derrick
+A profile page about me for my portfolio.
